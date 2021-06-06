@@ -1,0 +1,47 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+body{
+  font-size: 30px;
+  background-color: rgb(78, 173, 219);
+  text-align: center;
+}
+.my_home{
+  text-align: center;
+  padding: 20px;
+}
+.my_footer{
+  text-align: center;
+  color: purple;
+  background: white;
+}
+.my_header{
+  text-align: center;
+  background-color: black;
+  color: rgb(51, 239, 245);
+  padding: 10px;
+}
+.my_li{
+  background-color: rgb(79, 112, 230);
+  border: 1px solid black;
+}
+.edit_button{
+  color: black;
+}
+.edit_button:hover{
+  color: gold;
+  text-decoration: none;
+}
